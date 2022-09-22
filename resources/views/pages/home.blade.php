@@ -134,7 +134,7 @@ TravelMan
             </p>
           </div>
           <div class="col-md-8 text-center">
-            <img src="frontend/images/partner.png" class="img-patner" />
+            <img src="{{ url('frontend/images/partner.png') }}" class="img-patner" />
           </div>
         </div>
       </div>
@@ -162,7 +162,7 @@ TravelMan
             <div class="card card-testimonial text-center">
               <div class="testimonial-content">
                 <img
-                  src="frontend/images/avatar-1.png"
+                  src="{{ url('frontend/images/avatar-1.png') }}"
                   alt=""
                   class="mb-4 rounded-circle"
                 />
@@ -180,7 +180,7 @@ TravelMan
             <div class="card card-testimonial text-center">
               <div class="testimonial-content">
                 <img
-                  src="frontend/images/avatar-2.png"
+                  src="{{ url('frontend/images/avatar-2.png') }}"
                   alt=""
                   class="mb-4 rounded-circle"
                 />
@@ -198,7 +198,7 @@ TravelMan
             <div class="card card-testimonial text-center">
               <div class="testimonial-content mb-auto">
                 <img
-                  src="frontend/images/avatar-3.png"
+                  src="{{ url('frontend/images/avatar-3.png') }}"
                   alt=""
                   class="mb-4 rounded-circle"
                 />
