@@ -19,10 +19,10 @@
             <span>Dashboard</span></a>
     </li>
     <li class="nav-item">
-        <a class="nav-link" href="index.html">
-            <i class="fas fa-fw fa-hotel"></i>
-            <span>Paket Travel</span></a>
-    </li>
+        <a class="nav-link" href="{{ route('travel-package.index') }}">
+          <i class="fas fa-fw fa-hotel"></i>
+          <span>Paket Travel</span></a>
+      </li>
     <li class="nav-item">
         <a class="nav-link" href="index.html">
             <i class="fas fa-fw fa-images"></i>
