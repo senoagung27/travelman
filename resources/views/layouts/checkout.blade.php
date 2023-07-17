@@ -9,12 +9,12 @@
     @stack('prepend-style')
     @include('includes.style')
     @stack('addon-style')
-
+    
   </head>
   <body>
-    @include('includes.navbar-alternate')
+    @include('includes.navbar-alternate')    
     @yield('content')
-    @include('includes.footer')
+    @include('includes.footer')    
 
     @stack('prepend-script')
     @include('includes.script')

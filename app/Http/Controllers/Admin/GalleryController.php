@@ -2,10 +2,12 @@
 
 namespace App\Http\Controllers\Admin;
 
+use App\Http\Controllers\Controller;
+use App\Http\Requests\Admin\GalleryRequest;
 use App\Gallery;
 use App\TravelPackage;
 use Illuminate\Http\Request;
-use App\Http\Controllers\Controller;
+use Illuminate\Support\Str;
 
 class GalleryController extends Controller
 {
@@ -42,7 +44,7 @@ class GalleryController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(GalleryRequest $request)
     {
         $data = $request->all();
         $data['image'] = $request->file('image')->store(
@@ -89,7 +91,7 @@ class GalleryController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
+    public function update(GalleryRequest $request, $id)
     {
         $data = $request->all();
         $data['image'] = $request->file('image')->store(
@@ -115,5 +117,6 @@ class GalleryController extends Controller
         $item->delete();
 
         return redirect()->route('gallery.index');
+
     }
 }

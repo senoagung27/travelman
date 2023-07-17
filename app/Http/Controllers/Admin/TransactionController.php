@@ -2,9 +2,11 @@
 
 namespace App\Http\Controllers\Admin;
 
+use App\Http\Controllers\Controller;
+use App\Http\Requests\Admin\TransactionRequest;
 use App\Transaction;
 use Illuminate\Http\Request;
-use App\Http\Controllers\Controller;
+use Illuminate\Support\Str;
 
 class TransactionController extends Controller
 {
@@ -40,7 +42,7 @@ class TransactionController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(TransactionRequest $request)
     {
         $data = $request->all();
 
@@ -87,7 +89,7 @@ class TransactionController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
+    public function update(TransactionRequest $request, $id)
     {
         $data = $request->all();
 
@@ -110,5 +112,6 @@ class TransactionController extends Controller
         $item->delete();
 
         return redirect()->route('transaction.index');
+
     }
 }

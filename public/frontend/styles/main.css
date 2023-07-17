@@ -1,7 +1,7 @@
 body {
   background-color: #fff;
-  font-family: 'Assistant', sans-serif;
-  color: #071C4D;
+  font-family: "Assistant", sans-serif;
+  color: #071c4d;
 }
 
 .navbar-brand img {
@@ -17,16 +17,16 @@ body {
 }
 
 .navbar-light .navbar-nav .nav-link {
-  color: #071C4D;
+  color: #071c4d;
 }
 
 .navbar-light .navbar-nav .nav-link.active {
   font-weight: bold;
-  color: #071C4D !important;
+  color: #071c4d !important;
 }
 
 .btn-login {
-  background-color: #071C4D;
+  background-color: #071c4d;
   color: #fff;
 }
 
@@ -37,7 +37,7 @@ body {
 header {
   margin-top: -68px;
   padding: 180px 0 165px;
-  background-image: url("../images/header-background.jpg");
+  background-image: url("../images/header.jpg");
   background-size: cover;
 }
 
@@ -47,7 +47,7 @@ header p {
 }
 
 header h1 {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-weight: bold;
 }
 
@@ -56,7 +56,7 @@ header p {
 }
 
 header .btn-get-started {
-  background-color: #FF9E53;
+  background-color: #ff9e53;
   color: #fff;
 }
 
@@ -101,7 +101,7 @@ header .btn-get-started:hover {
 }
 
 .section-popular .section-popular-heading h2 {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-weight: bold;
 }
 
@@ -125,7 +125,7 @@ header .btn-get-started:hover {
 }
 
 .section-popular-content .section-popular-travel .card-travel .travel-button .btn-travel-details {
-  background-color: #FF9E53;
+  background-color: #ff9e53;
   color: #fff;
 }
 
@@ -141,7 +141,7 @@ header .btn-get-started:hover {
 }
 
 .section-networks h2 {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-weight: bold;
 }
 
@@ -149,71 +149,71 @@ header .btn-get-started:hover {
   max-width: 100%;
 }
 
-.section-testimonials-heading {
+.section-testimonial-heading {
   background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#f7f9ff));
   background: linear-gradient(#fff 0%, #f7f9ff 100%);
   padding-top: 50px;
   min-height: 506px;
 }
 
-.section-testimonials-heading h2 {
-  font-family: 'Playfair Display', serif;
+.section-testimonial-heading h2 {
+  font-family: "Playfair Display", serif;
   font-weight: bold;
 }
 
-.section-testimonials-content {
+.section-testimonial-content {
   margin-top: -300px;
   padding-bottom: 50px;
 }
 
-.section-testimonials-content .card-testimonial {
+.section-testimonial-content .card-testimonial {
   padding: 40px 20px 10px;
   border-radius: 11px;
   margin-bottom: 20px;
 }
 
-.section-testimonials-content .card-testimonial .testimonial-content {
+.section-testimonial-content .card-testimonial .testimonial-content {
   min-height: 380px;
 }
 
-.section-testimonials-content .card-testimonial h3 {
+.section-testimonial-content .card-testimonial h3 {
   font-size: 22px;
 }
 
-.section-testimonials-content .card-testimonial .testimonials {
+.section-testimonial-content .card-testimonial .testimonial {
   font-size: 26px;
   text-align: center;
   color: #6e6e6e;
   font-weight: 200;
 }
 
-.section-testimonials-content .card-testimonial .trip-to {
+.section-testimonial-content .card-testimonial .trip-to {
   font-weight: normal;
   font-size: 22px;
   color: #6e6e6e;
 }
 
-.section-testimonials-content .card-testimonial hr {
+.section-testimonial-content .card-testimonial hr {
   margin-left: -20px;
   margin-right: -20px;
 }
 
-.section-testimonials-content .btn-get-started {
-  background-color: #FF9E53;
+.section-testimonial-content .btn-get-started {
+  background-color: #ff9e53;
   color: #fff;
 }
 
-.section-testimonials-content .btn-get-started:hover {
+.section-testimonial-content .btn-get-started:hover {
   color: #fff;
 }
 
-.section-testimonials-content .btn-need-help {
-  background-color: #F2F2F2;
-  color: #C3C3C3;
+.section-testimonial-content .btn-need-help {
+  background-color: #f2f2f2;
+  color: #c3c3c3;
 }
 
-.section-testimonials-content .btn-need-help:hover {
-  color: #C3C3C3;
+.section-testimonial-content .btn-need-help:hover {
+  color: #c3c3c3;
 }
 
 .section-footer a {
@@ -239,7 +239,7 @@ header .btn-get-started:hover {
 
 .section-details-content .breadcrumb-item.active {
   font-weight: bold;
-  color: #071C4D;
+  color: #071c4d;
 }
 
 .section-details-content .card-details {
@@ -260,12 +260,12 @@ header .btn-get-started:hover {
 }
 
 .section-details-content .card-details .trip-informations .text-blue {
-  color: #071C4D;
+  color: #071c4d;
   font-weight: bold;
 }
 
 .section-details-content .card-details .trip-informations .text-orange {
-  color: #FF9E53;
+  color: #ff9e53;
   font-weight: bold;
 }
 
@@ -348,7 +348,7 @@ header .btn-get-started:hover {
 }
 
 .section-details-content .btn-join-now {
-  background-color: #FF9E53;
+  background-color: #ff9e53;
   color: #fff;
   border-radius: 0;
 }
@@ -388,7 +388,7 @@ header .btn-get-started:hover {
 }
 
 .section-details-content .btn-add-now {
-  background-color: #071C4D;
+  background-color: #071c4d;
   color: #fff;
 }
 
@@ -438,5 +438,44 @@ header .btn-get-started:hover {
 
 .section-success .btn-home-page:hover {
   color: #fff;
+}
+
+@media (min-width: 992px) {
+  .login-container {
+    background: -webkit-gradient(linear, left top, right top, color-stop(60%, #ffffff), color-stop(40%, #e4e6eb));
+    background: linear-gradient(90deg, #ffffff 60%, #e4e6eb 40%);
+    width: 100vw;
+    height: 100vh;
+  }
+}
+
+.page-login {
+  height: 100vh;
+}
+
+.page-login .btn-login {
+  background-color: #ff9e53;
+  color: #fff;
+}
+
+.page-login .btn-login:hover {
+  color: #fff;
+}
+
+.page-login .section-left h1 {
+  font-family: "Playfair Display";
+  font-weight: bold;
+  font-size: 50px;
+  text-align: left;
+  color: #071c4d;
+}
+
+.page-login .section-right a {
+  font-family: Assistant;
+  font-weight: 300;
+  text-decoration: underline;
+  font-size: 16px;
+  text-align: center;
+  color: #bfbfbf;
 }
 /*# sourceMappingURL=main.css.map */

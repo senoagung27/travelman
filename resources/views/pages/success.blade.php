@@ -8,7 +8,7 @@
       <img src="{{ url('frontend/images/ic_mail.png') }}" alt="" />
       <h1>Yay! Success</h1>
       <p>
-        Weve sent you email for trip instruction
+        We’ve sent you email for trip instruction
         <br />
         please read it as well
       </p>

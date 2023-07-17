@@ -1,8 +1,5 @@
 <?php
 
-use Illuminate\Support\Facades\Auth;
-use Illuminate\Support\Facades\Route;
-
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -13,10 +10,6 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
-// Route::get('/', function () {
-//     return view('welcome');
-// });
 
 Route::get('/', 'HomeController@index')
     ->name('home');
@@ -51,9 +44,15 @@ Route::prefix('admin')
         Route::get('/', 'DashboardController@index')
             ->name('dashboard');
 
-            Route::resource('travel-package', 'TravelPackageController');
-            Route::resource('gallery', 'GalleryController');
-            Route::resource('transaction', 'TransactionController');
+        Route::resource('travel-package', 'TravelPackageController');
+        Route::resource('gallery', 'GalleryController');
+        Route::resource('transaction', 'TransactionController');
     });
 
-Auth::routes();
+Auth::routes(['verify' => true]);
+
+// Midtrans
+Route::post('/midtrans/callback', 'MidtransController@callbackNotification');
+Route::get('/midtrans/finish', 'MidtransController@finishRedirect');
+Route::get('/midtrans/unfinish', 'MidtransController@unfinishRedirect');
+Route::get('/midtrans/error', 'MidtransController@errorRedirect');

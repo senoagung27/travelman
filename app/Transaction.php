@@ -7,7 +7,6 @@ use Illuminate\Database\Eloquent\SoftDeletes;
 
 class Transaction extends Model
 {
-
     use SoftDeletes;
 
     protected $fillable = [
@@ -30,4 +29,6 @@ class Transaction extends Model
     public function user(){
         return $this->belongsTo( User::class, 'users_id', 'id' );
     }
+
+
 }
